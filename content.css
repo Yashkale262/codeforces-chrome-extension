@@ -1,0 +1,152 @@
+
+#ratingChart{
+  height: 400px;
+}
+/* #ratingChart {
+  padding: 20px;
+  width: 95%;
+} */
+
+#selectBox{
+  position: absolute;
+  right: 20px;
+  width: 130px;
+  outline:none;
+}
+.slanting{
+  padding-top:8px;
+  transform: rotate(-60deg)
+             skew(0deg);
+  font-size: 8px;
+}
+
+.titlerow{
+  height: 50px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.rating_table {
+  width: 100%;
+  height: 400px;
+}
+
+.textcenter {
+  text-align: center;
+  /* font-size: 10px; */
+}
+
+.textcenter-high {
+  font-size: 10px;
+}
+
+.bars td {
+  vertical-align: bottom;
+}
+
+
+/*Div2*/
+.div2{
+  display: flex;
+}
+
+.div2left{
+  width:55%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15%;
+}
+
+.div2right{
+  width: 30%;
+  overflow-y: scroll;
+  height: 200px
+}
+
+/* .bars div:hover {
+  opacity: 0.6;
+} */
+
+
+
+
+/*Flat UI colors*/
+
+.newbie {
+  background: #cccccc;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-bottom: 0px;
+}
+
+.pupil {
+  background: #77ff77;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-bottom: 0px;
+
+}
+
+.specialist {
+  background: #77ddbb;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-bottom: 0px;
+
+}
+
+.expert {
+  background: #aaaaff;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-bottom: 0px;
+
+}
+
+.cm {
+  background: #ff88ff;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-bottom: 0px;
+
+}
+
+.master {
+  background: #ffcc88;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-bottom: 0px;
+  
+}
+
+.int_master {
+  background: #ffbb55;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-bottom: 0px;
+ 
+}
+
+.grandmaster {
+  background: #ff7777;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-bottom: 0px;
+  
+}
+
+.int_grandmaster{
+  background: #ff3333;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-bottom: 0px;
+  
+}
+
+.legend_grandmaster {
+  background: #aa0000;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-bottom: 0px;
+  
+}
